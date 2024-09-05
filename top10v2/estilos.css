@@ -1,0 +1,17 @@
+body{
+    background-color:black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    color: maroon;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: blanchedalmond;
+}
