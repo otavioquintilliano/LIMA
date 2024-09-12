@@ -1,5 +1,32 @@
+
+*{
+    text-align: center;
+}
+
 body{
     background-color:black;
+}
+
+
+img{
+     width: 65%;       /* Largura da imagem */
+    height: 65%;       /* Altura da imgem */
+    opacity: 100%;
+    border: 2.5px solid;
+    border-color: white;
+}
+
+img:hover{
+    opacity: 60%;
+    filter: opacity();
+}
+
+#gorila{
+    text-align: center;
+    zoom: 1;
+}
+#gorila:hover{
+    zoom: 1.25;
 }
 
 h1{
@@ -8,7 +35,7 @@ h1{
 }
 
 h2{
-    color: maroon;
+    color: white;
 }
 
 p{
