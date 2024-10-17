@@ -1,0 +1,59 @@
+/* @media é um seletor do CSS que permite definir estilos para cada tipo de mídia. É uma estrutura de código que faz parte do módulo de Media Queries , que é uma tecniologia CSS que permite estilizar uma página web de acordo com determinadas condições.
+
+-dimensóes da tela
+-Relação de aspectos da tela
+-Orientação do dispositivos */
+
+@media (max-width: 768px){
+    .item{
+        flex: 0;
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
+    }
+}
+
+.sidebar{
+    justify-content: flex-start;
+}
+
+.content{
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+@media (max-width: 480px){
+    body{
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(min-content, 15vh) minmax(min-content 10vh) 1fr;
+        grid-template-areas: 'header'
+                             'sidebar'
+                             'content'
+    }
+
+
+.sidebar{
+    flex-flow:row wrap;
+    padding: 10px;
+}
+
+.item{
+    flex-flow: 1;
+    padding: 2%;
+    margin: 1%;
+}
+
+.header{
+    padding-left: 12%;
+}
+}
+@media (max-width: 300px){
+    .sidebar{
+        font-size: 10.5px;
+        flex-flow: row nowrap;
+        padding: 7%;
+    }
+    .item{
+        flex: 1 1 content;
+    }
+}
+
