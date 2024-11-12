@@ -1,0 +1,17 @@
+.silde{
+    align-items: center;
+}
+
+.pagina{
+    width: 100px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 50px;
+    transition: width 0.5s;
+
+}
+
+.pagina: houver{
+    width: 300px;
+}
+
